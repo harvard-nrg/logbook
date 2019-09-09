@@ -1,0 +1,6 @@
+__title__ = 'logbook-dptk'
+__description__ = 'File summary pipeline for DPTK'
+__url__ = 'https://github.com/sbdp/logbook-dptk'
+__version__ = '0.1a0'
+__author__ = 'SBDP'
+__author_email__ = 'info@sbdp.invalid'

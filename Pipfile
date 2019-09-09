@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+
+[packages]
+DateTime = "*"
+numpy = "*"
+pandas = "*"
+pydicom = "*"
+python-dateutil = "*"
+pytz = "*"
+six = "*"
+zope.interface = "*"
+logbook = {path = ".", editable = true}
