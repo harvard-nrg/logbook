@@ -2,7 +2,7 @@ Logbook
 =======
 
 1. [Installation](#installation)
-2. [Documentation](#documentation)
+2. [Documentation](http://docs.neuroinfo.org/logbook/en/latest)
 
 # Installation
 Just use `pip`
@@ -12,4 +12,4 @@ pip install logbook-dptk
 ```
 
 ## Documentation
-For complete documentation, head over to `readthedocs`!
+You can find complete documentation [here](http://docs.neuroinfo.org/logbook/en/latest).
