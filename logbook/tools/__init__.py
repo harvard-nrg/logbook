@@ -78,7 +78,7 @@ def export_data_daily(data, study, subject, output_dir, day_from, day_to, data_t
         logger.info('Writing %s' % file_path)
         query = '{DF} <= day <= {DT}'.format(DF=day_from, DT=day_to)
 
-        print file_path
+        print(file_path)
 
         data.query(query).to_csv(path_or_buf=file_path,
             index=False,
@@ -86,7 +86,7 @@ def export_data_daily(data, study, subject, output_dir, day_from, day_to, data_t
             na_rep='')
 
     except Exception as e:
-        print e
+        print(e)
         logger.error(e)
 
 # Export the data as seconds binned csv file
@@ -117,7 +117,7 @@ def export_data_seconds(data, study, subject, output_dir, day_from, day_to, data
         logger.info('Writing %s' % file_path)
         query = '{DF} <= day <= {DT}'.format(DF=day_from, DT=day_to)
 
-        print file_path
+        print(file_path)
 
         data.query(query).to_csv(path_or_buf=file_path,
             index=False,
@@ -125,7 +125,7 @@ def export_data_seconds(data, study, subject, output_dir, day_from, day_to, data
             na_rep='')
 
     except Exception as e:
-        print e
+        print(e)
         logger.error(e)
 
 # Export the data as csv file
@@ -156,7 +156,7 @@ def export_mri_data(data, study, subject, output_dir, day_from, day_to, data_typ
         logger.info('Writing %s' % file_path)
         query = '{DF} <= day <= {DT}'.format(DF=day_from, DT=day_to)
 
-        print file_path
+        print(file_path)
 
         data.query(query).to_csv(path_or_buf=file_path,
             index=False,
@@ -164,7 +164,7 @@ def export_mri_data(data, study, subject, output_dir, day_from, day_to, data_typ
             na_rep='')
 
     except Exception as e:
-        print e
+        print(e)
         logger.error(e)
 
 
